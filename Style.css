@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+section{
+width: 100%;
+min-height: 300px ;
+}
+
 body {
     background-color: white;
     font-family: Arial, sans-serif;
@@ -52,6 +57,18 @@ nav a:hover {
     object-fit: cover; 
 }
 
+.imagen-circuitos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.circuitos{
+    width: 700px;
+    height: 100%;
+}
 
 @media (max-width: 1024px) {
     .imagenes-grid {
